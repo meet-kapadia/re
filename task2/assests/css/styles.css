@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.cards{
+    margin-top: 100px;
+}
+
+.card-body{
+    background-color: #FFF6F7;
+}
+
+.colorange{
+    color: rgb(228, 127, 44);
+}
+
+
+.imagetop{
+    width: 50x; 
+    height: 50px;
+    margin-top: -65px;
+}
+
+.ourcust{
+    z-index: 12;
+}
+/* #orangecircle{
+    width: 50px;
+    height: 50px;
+    background: rgb(228, 127, 44);
+    border-radius: 50%;
+    position: absolute;
+    left: 202px;
+  } */
+
+.bef:before{
+    content: "";
+    width: 50px;
+    height: 50px;
+    background: rgb(228, 127, 44);
+    border-radius: 50%;
+    display: block;
+}
+
+.quote:before{
+    font-family: 'Palanquin', sans-serif;;
+    content: "\”";
+    position: absolute;
+    top: 0px;
+    right: 80px;
+    font-size: 125px;
+    font-weight: 600;
+    color: #FCDDD5;
+    
+}
+
+.crd-title{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0px;
+}
+
+.crd-subtitle{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 0px;
+    margin-top: 2px;
+}
+
+.para{
+    margin-top: 15px;
+    font-style: italic;
+}
+
